@@ -10,8 +10,8 @@ git push origin master
 
 1) Установить cakephp/database консольной командой composer require cakephp/database
 https://github.com/cakephp/database
-3)  создать  директорию для базы данных dbpath
-4) создать в корне сайта файл config.php и указать путь до файла с базой данных
+2)  создать  директорию для базы данных dbpath
+3) создать в корне сайта файл config.php и указать путь до файла с базой данных
 
 <?php
 
@@ -27,7 +27,8 @@ return array(
 
 6) установить codeception командой composer require "codeception/codeception" --dev
 
-7) установить расширение Selenium IDE https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd в браузер и загрузить приёмочные тесты из файла user.side
+7) Юнит тесты - vendor\bin\phpunit.bat tests\UserTest.php
+Функциональные - vendor\bin\codecept.bat run acceptance tests\UserCodeceptionTest
 
 
 
