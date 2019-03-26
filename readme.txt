@@ -1,6 +1,7 @@
 Версия языка - PHP > 5.6.
 Версия БД - sqllite > 3
 
+Установить xampp и запустить
 После надо запустить git bash here из контекстного меню
 Выполнить там команду 
 git add readme.txt
@@ -9,8 +10,7 @@ git push origin master
 
 1) Установить cakephp/database консольной командой composer require cakephp/database
 https://github.com/cakephp/database
-2) Скопировать проект из git репозитория
-3)  создать  директорию для базы данных
+3)  создать  директорию для базы данных dbpath
 4) создать в корне сайта файл config.php и указать путь до файла с базой данных
 
 <?php
