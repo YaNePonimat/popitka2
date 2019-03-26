@@ -1,24 +1,26 @@
-1) Установить cakephp/database консольной командой composer require cakephp/database
+Р’РµСЂСЃРёСЏ СЏР·С‹РєР° - PHP > 5.6.
+Р’РµСЂСЃРёСЏ Р‘Р” - sqllite > 3
+1) РЈСЃС‚Р°РЅРѕРІРёС‚СЊ cakephp/database РєРѕРЅСЃРѕР»СЊРЅРѕР№ РєРѕРјР°РЅРґРѕР№ composer require cakephp/database
 https://github.com/cakephp/database
-2) Скопировать проект из git репозитория
-3)  создать  директорию для базы данных
-4) создать в корне сайта файл config.php и указать путь до файла с базой данных
+2) РЎРєРѕРїРёСЂРѕРІР°С‚СЊ РїСЂРѕРµРєС‚ РёР· git СЂРµРїРѕР·РёС‚РѕСЂРёСЏ
+3)  СЃРѕР·РґР°С‚СЊ  РґРёСЂРµРєС‚РѕСЂРёСЋ РґР»СЏ Р±Р°Р·С‹ РґР°РЅРЅС‹С…
+4) СЃРѕР·РґР°С‚СЊ РІ РєРѕСЂРЅРµ СЃР°Р№С‚Р° С„Р°Р№Р» config.php Рё СѓРєР°Р·Р°С‚СЊ РїСѓС‚СЊ РґРѕ С„Р°Р№Р»Р° СЃ Р±Р°Р·РѕР№ РґР°РЅРЅС‹С…
 
 <?php
 
 return array(
-    'dbpath' => __DIR__.'/dbpath/file.db',//путь до файла с базой данных
+    'dbpath' => __DIR__.'/dbpath/file.db',//РїСѓС‚СЊ РґРѕ С„Р°Р№Р»Р° СЃ Р±Р°Р·РѕР№ РґР°РЅРЅС‹С…
 );
 
-4) Запустить скрипт install.php в корне сайта
+4) Р—Р°РїСѓСЃС‚РёС‚СЊ СЃРєСЂРёРїС‚ install.php РІ РєРѕСЂРЅРµ СЃР°Р№С‚Р°
 
-для тестирования
+РґР»СЏ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ
 
-5) установить phpunit https://phpunit.de/getting-started/phpunit-7.html командой composer require --dev phpunit/phpunit
+5) СѓСЃС‚Р°РЅРѕРІРёС‚СЊ phpunit https://phpunit.de/getting-started/phpunit-7.html РєРѕРјР°РЅРґРѕР№ composer require --dev phpunit/phpunit
 
-6) установить codeception командой composer require "codeception/codeception" --dev
+6) СѓСЃС‚Р°РЅРѕРІРёС‚СЊ codeception РєРѕРјР°РЅРґРѕР№ composer require "codeception/codeception" --dev
 
-7) установить расширение Selenium IDE https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd в браузер и загрузить приёмочные тесты из файла user.side
+7) СѓСЃС‚Р°РЅРѕРІРёС‚СЊ СЂР°СЃС€РёСЂРµРЅРёРµ Selenium IDE https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd РІ Р±СЂР°СѓР·РµСЂ Рё Р·Р°РіСЂСѓР·РёС‚СЊ РїСЂРёС‘РјРѕС‡РЅС‹Рµ С‚РµСЃС‚С‹ РёР· С„Р°Р№Р»Р° user.side
 
 
 
