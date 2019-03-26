@@ -1,5 +1,12 @@
 Версия языка - PHP > 5.6.
 Версия БД - sqllite > 3
+
+После надо запустить git bash here из контекстного меню
+Выполнить там команду 
+git add readme.txt
+git commit -m "fix readme"
+git push origin master
+
 1) Установить cakephp/database консольной командой composer require cakephp/database
 https://github.com/cakephp/database
 2) Скопировать проект из git репозитория
